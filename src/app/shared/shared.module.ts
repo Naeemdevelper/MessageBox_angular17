@@ -5,6 +5,7 @@ import { HeaderComponent } from './layouts/header/header.component';
 import { MasterComponent } from './layouts/master/master.component';
 import { CardComponent } from './components/card/card.component';
 import { SideBarComponent } from './layouts/side-bar/side-bar.component';
+import { MessageItemComponent } from './components/message-item/message-item.component';
 
 
 
@@ -13,7 +14,8 @@ import { SideBarComponent } from './layouts/side-bar/side-bar.component';
     HeaderComponent,
     MasterComponent,
     CardComponent,
-    SideBarComponent
+    SideBarComponent,
+    MessageItemComponent
   ],
   imports: [
     CommonModule,
@@ -26,7 +28,8 @@ import { SideBarComponent } from './layouts/side-bar/side-bar.component';
     RouterModule,
     CardComponent,
     HeaderComponent,
-    SideBarComponent
+    SideBarComponent,
+    MessageItemComponent
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
    
